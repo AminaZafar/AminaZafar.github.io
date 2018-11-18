@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+#header-nav-id{
+  background-color: #ABC5FF;
+}
+.navbar-brand h1{
+  margin-top: 0px;
+  width: 100%;
+  color: #165DFF;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button{
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list{
+  background-color: #FABD4E;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 23px;
+}
+#nav-list li{
+  border: .75px solid #61122f;
+}
+#nav-list li:hover {
+  background: #E7E7E7;
+}
+#content{
+  background-color: #7CD28A;
+}
+#main-content > h2{
+  margin-bottom: 15px;
+}
+#main-content .row{
+  margin: 0px;
+}
+@media (min-width: 768px){
+  #header-nav-id{
+    height: 70px;
+  }
+}
